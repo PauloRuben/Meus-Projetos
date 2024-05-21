@@ -78,6 +78,58 @@ var_dump($cars);
 echo "<br>";
 ?>
 <?php
-echo"<br>"
+echo"<br>";
 echo strlen("Olá Mundo")
+?>
+<?php
+echo"<br>";
+echo str_word_count('Olá Mundo')
+?>
+<?php
+echo "<br>";
+echo strpos ("Novo bravo mundo","Iron Maiden")
+?>
+<?php
+$x ="Ola Mundo";
+echo strtolower($x);
+?>
+<?php
+$x=" NoVo TesTe";
+echo strtolower($x);
+?>
+<?php
+$x="Meu Teste";
+echo "<br>";
+echo str_replace("Teste", "Arquivo", $x);
+?>
+<?php
+$x="Meu Teste";
+echo"<br>";
+echo strrev($x);
+?>
+<?php
+$x="Meu Teste";
+echo"<br>";
+echo trim($x);
+?>
+<?php
+echo"<input value='" . $x . "'>";
+echo"<br>";
+echo"<input value'" . trim($x) . "'>";
+?>
+<?php
+$x="Meu ";
+$y="Teste";
+$z=$x . $y;
+echo"<br>";
+echo $z;
+?>
+<?php
+$p="Paulo ";
+$r="Ruben ";
+$m="Meira ";
+$a="Prado";
+$z=$p . $r . $m. $a ;
+echo"<br>";
+echo $z;
 ?>
