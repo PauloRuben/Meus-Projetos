@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+    </style>
+</head>
+    <body>
+        <h1>Trabalhando com Formulario</h1>
+        <form action="sucesso.html" method="git">
+            <label>Nome completo: </label >
+            <input type ="text" name="Nome" placeholder="Escreva o seu nome">
+            <hr>
+            <label>Endereço: </label>
+            <input type="text" name="Endereço" placeholder="Escreva o seu endereço">
+            <hr>
+            <label>Email: </label>
+            <input type ="email" name="Email" placeholder="Escreva o seu email">
+            <hr>
+            <label>Senha: </label>
+            <input type ="password" name="Senha" minlength="8" placeholder="Escreva a sua senha">
+            <hr>
+            <label>Data de nascimento: </label>
+            <input type ="date" name="Data">
+            <hr>
+            <label>Sexo: </label>
+                <input type="radio" name="Masc">Masculino</input>
+                <input type="radio" name="Femi">Feminino</input>
+                <input type="radio" name="Helicoptero"> Helicoptero de combate russo</input>
+            <hr>
+            <label>Anexar documento: </label>
+                <input type="file">
+            <hr>
+            <label>Cor favorita</label>
+                <input type="checkbox" name="cor" value="Azul">Azul
+                <input type="checkbox" name="cor"value="Vermelho">Vermelho
+                <input type="checkbox" name="cor"value="Amarelo">Amarelo
+                <input type="checkbox" name="cor"value="Verde">Verde
+            <hr>
+            <label>UF</label>
+            <select>
+                <option>DF</option>
+                <option>GO</option>
+                <option selected>MT</option>
+                <option>MS</option>
+            </select>
+            <hr>
+            <label>Deixe seu comentario: </label>
+            <textarea name="comentario" cols="30" rows="10" maxlength="10"></textarea><br></br>
+            <input type="reset" value="Cancelar">
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
