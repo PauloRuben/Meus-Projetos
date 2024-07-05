@@ -1,0 +1,65 @@
+#banner{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6444d550-d0ea-4c30-8c6c-03b6b16cbd4b/dgxe42b-4ee4b750-d8bc-4f1f-b75c-e5074818e5e2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY0NDRkNTUwLWQwZWEtNGMzMC04YzZjLTAzYjZiMTZjYmQ0YlwvZGd4ZTQyYi00ZWU0Yjc1MC1kOGJjLTRmMWYtYjc1Yy1lNTA3NDgxOGU1ZTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vAq5BXnuQoijgz-ybH4RqnYxUc0k_jx0cgzHzamvfgw);
+    background-size: auto;
+    height: 200px;
+}
+nav{
+    background-color: rgb(0, 0, 255);
+    padding: 2px;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(126, 1, 1);
+}
+#roma:hover ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: left;
+}
+#romance{     
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background-color: rgb(0, 0, 255);
+    padding: 10px 0;
+}
+#ac:hover ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: left;
+}
+#acao{     
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background-color: rgb(0, 0, 255);
+    padding: 10px 0;
+}
+#ter:hover ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: left;
+}
+#terror{     
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+    background-color: rgb(0, 0, 255);
+    padding: 10px 0;
+}

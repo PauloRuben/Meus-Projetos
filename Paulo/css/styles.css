@@ -1,0 +1,43 @@
+p{
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif-;
+    font-size: 20px;
+    text-align: justify;
+    font-style:oblique;
+    word-spacing: 8px;
+    text-decoration: underline;
+}
+h1{
+    color: red;
+}
+body{
+    background: black ;}
+aside{
+    padding: 100px;
+    width:20% ;
+    border-width:150px ;
+    border-style: solid;
+    border-image: url(https://i.pinimg.com/736x/eb/50/15/eb5015c70ea80ad9cffde4170b566951.jpg) 100 round;
+    background-color:transparent;
+    box-shadow:  0 0 10px gray;
+    text-align: center;
+
+}
+div{
+    border: 20px ridge darkviolet ;
+    border-left-color: darkred;
+    border-right-color: darkred;
+    margin: 20px 20px;
+    padding: 50px 20px;
+}
+section{
+    border: 10px solid greenyellow;
+    height: 50px;
+}
+article{
+    border: 20px solid red;
+    margin: 20px 20px;
+    height: auto;
+    padding: 50px 20px;
+    border-radius: 10px;
+}

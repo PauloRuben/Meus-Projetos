@@ -1,0 +1,20 @@
+iframe{
+    width: 600px;
+    height: 400px;
+}
+body{
+    background-color: green;
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+table{
+    display: flex;
+    justify-content: center;
+    border-color: green;
+    background-color: black;
+    border-radius: 20px;
+    color: green;
+}

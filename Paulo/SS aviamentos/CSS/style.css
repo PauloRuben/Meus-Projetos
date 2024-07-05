@@ -1,0 +1,47 @@
+body{
+    background-color: green;
+}
+#banner{
+    border: 10px solid black ;
+    height: 90px;
+    background-image: url(../imgs/SS\ AViamentos.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #000000;
+}
+#acesso{
+    border: 30px solid black;
+    color: green ;
+    background-color: rgb(54, 54, 54);
+}
+#menu{
+    height: 500px;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+tr{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none; 
+}
+img{
+    width: 600px;
+}
+#local{
+    height: 700px;
+}
