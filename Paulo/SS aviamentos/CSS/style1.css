@@ -17,4 +17,6 @@ table{
     background-color: black;
     border-radius: 20px;
     color: green;
+    width: auto;
+    height: auto;
 }

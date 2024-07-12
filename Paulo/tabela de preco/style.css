@@ -1,0 +1,35 @@
+body{
+    background-color:rgba(255, 157, 45, 0.973);
+    padding: 0px 20px 0px 20px;
+    margin-top: -30px;
+    margin-bottom: -30px; 
+}
+table{
+    color: white;
+    font-size: 25px;
+}
+h1{
+    font-size: 30pt;
+    text-align: center;
+    color: rgba(255, 157, 45, 0.973);
+
+}
+h2{
+    font-size: 25pt ;
+    text-align: center;
+    color: rgba(255, 157, 45, 0.973);
+}
+#princ{
+    margin-top: 0px;
+    background-color: black;
+    height: 1850px ;
+    
+}
+#la{
+    color:rgb(251, 255, 0) ;
+}
+img{
+    height: 500px;
+    width: 950px;
+
+}
