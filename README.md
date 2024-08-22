@@ -1,3 +1,3 @@
 # Meu-Projeto
-Minhas atividades e projetos do curso de Desenvolvimento de Sistemase e projeto feitos como cadastros, fomulários e etc.
+Minhas atividades e projetos do Curso de Desenvolvimento de Sistemas e Projeto feitos como cadastros, fomulários e etc.
 
