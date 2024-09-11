@@ -1,0 +1,19 @@
+img{
+    height: 500px;
+}
+body{
+    text-align: center;
+}
+table{
+    border: 5px solid black;
+    object-position: center;
+    border-collapse:collapse ;
+    padding: 100px;
+    width: 200px;
+    height: 300px;
+}
+td {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #ffffff;
+}

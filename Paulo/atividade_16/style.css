@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(58, 104, 124);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu{
+    color: rgb(0, 95, 177);
+    background-color: gray;
+}
+img{
+    height: 200px;
+}
+.cabecalho{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    object-position: center;
+}
+#menu{
+    color: aliceblue;
+}
+#cabecalho{
+    color: aliceblue;
+}
+li{
+    display:contents;
+}

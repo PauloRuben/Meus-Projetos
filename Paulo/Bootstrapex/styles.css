@@ -1,0 +1,23 @@
+h1{
+    color: yellow;
+}
+body{
+    text-align: center;
+    background-color: red;
+}
+#linha{
+    height: 100px;
+}
+td{
+    width: 50%;
+    height: 600px;
+}
+.card{
+    display: flex;
+    gap: 50px 50px;
+    height: 500px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
