@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>IMC</title>
+    </head>
+    <body>
+        <section class="formulario">
+            <form action="GET">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="peso">Peso (kg):</label>
+                <input type="number" id="peso" name="peso" required>
+                <label for="altura">Altura (m):</label>
+                <input type="number" id="altura" name="altura">
+                <input type="submit" id="calculo" value="calculo">
+                <input type="reset" value="Limpar">
+
+
+            </form>
+            <div class="resultado">
+                    <h2 id="resultado" value="resultado"></h2>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
