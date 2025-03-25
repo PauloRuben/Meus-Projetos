@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>CRUD DB</title>
+        <script>
+            function campo(){
+                var nome = document.forms["dados"]["nome"].value
+                var email = document.forms["dados"]["email"].value
+                if(nome == "" || email == ""){
+                    alert ("Por favor, prencha todos os campos");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        
+        <img src="https://i.ibb.co/XfRrk4QG/image.png" alt="" id="dev">
+        <h1>Parabéns Udson</h1>
+
+        <p>Quero parabenizar um companheiro de sala que foi o primeiro a conseguir a se empregar na área de TI, eu espero que você consiga várias oportunidades com essa primeira oportunidade, agora você será a minha inspiração para ser um Dev competente.</p>
+
+        <img src="https://i.ibb.co/XfRrk4QG/image.png" alt="" id="dev">
+        <h1>Adicionar usuário</h1>
+            <form name="dados"action="addusers.php" method="post" onsubmit="return campo()">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <input type="submit" value="cadastrar">
+         </form>
+
+    <h1>Editar usuário</h1>
+
+    <form action="edit.php" method="post">
+        ID: <input type="text" name="id"><br><br>
+        Nome:<input type="text" name="nome"><br><br>
+        E-mail:<input type="text" name="email"><br><br>
+        <input type="submit" value="atualizar">
+    </form>
+
+    <h1>Deletar</h1>
+
+    <form action="delete.php" method="post">
+        ID: <input type="text" name="id"><br><br>
+        <input type="submit" value="atualizar">
+    </form>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(210, 163, 77);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    color: red;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+}   
+#dev{
+    width: 300px;
+
+    
+}
