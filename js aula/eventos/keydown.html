@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>keydown</title>
+    </head>
+    <body>
+        <h1>Aperte tecla a</h1>
+        <p id="mensagem"></p>
+        <br>
+        <input type="text" id="campoTexto" placeholder="Digite algo...">
+        <p id="mensagemTecla"></p>
+
+        <script>
+            /*document.addEventListener("keydown",function(evento) {
+                if (evento.key == "Enter") {
+                    document.getElementById("mensagem").innerText = "Você apertou a tecla Enter!";
+                }
+            })*/
+            document.addEventListener("keydown", function(evento){
+                if(evento.key == "x"){
+                    document.getElementById("mensagem").innerText = "Você apertou a tecla " + evento.key;
+                } else {
+                    document.getElementById("mensagem").innerText = "Você não apertou nenhuma tecla.";
+                }
+            })
+            /*
+            document.getElementById("campoTexto").addEventListener("keydown", function(event) {
+            document.getElementById("mensagemTecla").innerText = "Você pressionou a tecla: " + event.key;
+            });
+            */
+
+        </script>
+    </body>
+</html>

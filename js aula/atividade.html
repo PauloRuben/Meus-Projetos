@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>CALCULADORA</h1>
+        <table>
+            <tr>
+                <td>Número 1:</td>
+                <td><input type="number" id="num1"></td>
+            </tr>
+            <tr>
+                <td>Número 2:</td>
+                <td><input type="number" id="num2"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button onclick="calcularSoma()">Calcular</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p id="resultado"></p>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <button id="botao">Clique aqui</button>
+        <br>
+        <p id="mensagem">Mensagem original</p>
+    <script>
+        //ex1
+        /*
+        let animal ="iguana";
+        document.write(animal);
+        */
+
+        //ex2
+        /*
+        let number = 1;
+        
+        if(number % 2 == 0){
+            document.write("Par");
+        }
+        else{
+             document.write("Impar");
+        } */
+
+        // ex3
+        /*
+        for(let i=0; i<= 10; i++){
+            document.write(i + " ");
+        }
+        */
+
+        //ex 4
+        function calcularSoma() {
+            let num1 = Number(document.getElementById("num1").value);
+            let num2 = Number(document.getElementById("num2").value);
+            
+            let resultado = num1 + num2;
+            
+            document.getElementById("resultado").textContent = "A soma de " + num1 + " mais " + num2 + " é igual a: " + resultado;
+        }
+        
+        
+        //ex 5
+        /*
+        document.getElementById("botao").addEventListener("click", function() {
+            document.getElementById("mensagem").innerText = "Mensagem editada";   
+        });
+        */
+        
+        //ex 6
+        /*document.getElementById("botao").addEventListener("click", function() {
+            document.getElementById("mensagem").innerText = "Mensagem editada";
+            document.getElementById("mensagem").style.color = "red";   
+        });
+        */
+        
+        //ex 7
+        
+        let numero = [1, 2, 3, 4, 5];
+            let total = 0;
+            for (let i = 0; i < 5; i++) {
+                total += numero[i];
+            }
+        document.write(total + "<br>");
+        
+       
+        //ex 8
+       /*
+       let aluno = {
+        nome: "Arielso",
+        idade: 17 ,
+        nota1: 5,
+        nota2: 6,
+        nota3: 7,
+
+        mostrarInfo: function () {
+            let media = (this.nota1 + this.nota2 + this.nota3) / 3;
+            return this.nome + " " + this.idade + " Anos : " + this.nota1 + " "
+          + this.nota2 + " " + this.nota3 + " = " + media;
+        },
+        };
+
+        document.write(aluno.mostrarInfo());
+        */
+        //ex 9
+        /*
+        let numeros = [5, 10, 15, 20];
+        let dobro = numeros.map(num => num * 2);
+            document.write(dobro);
+        */
+        //ex 10
+
+        let compras = [
+            { produto: "Leite" , qtd: 2},
+            { produto: "Feijão" , qtd: 3},
+            { produto: "Arroz" , qtd: 4},
+            { produto: "Óleo" , qtd: 5},
+            { produto: "Sal" , qtd: 1},
+                
+        ];
+        compras.forEach((lista) => {
+        document.write(`<p>Produto: ${lista.produto}, Qtd: ${lista.qtd}</p>`);
+       });
+
+
+
+    </script>
+    </body>
+</html>

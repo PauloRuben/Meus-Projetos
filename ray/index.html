@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adicona dados no Array</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Adiciona Dados no array</h1>
+
+        <input type="text" id="dados" placeholder="digite alguma coisa">
+
+        <button onclick="incluirdados()">ADD</button>
+        <h1>Lista de dados:</h1>
+        <h2>Resultado</h2>
+        <ul id="lista">
+        </ul>
+
+        <script>
+            let dados = [];
+            function incluirdados(){
+                let valor = document.getElementById("dados").value;
+                if(dados !==  ""){
+                    dados.push(valor);
+                    document.getElementById("dados").value = "";
+                    mostrar();
+                } else{
+                    alert("Digite um valor para adicionar nos dados!");
+                }
+            }
+            function mostrar(){
+                let info = document.getElementById("lista");
+                info.innerHTML = "";
+                dados.forEach(function(exibir){
+                    let ul = document.createElement("ul");
+                    ul.textContent = exibir;
+                    info.appendChild(ul);
+                })
+            }
+        </script>
+    </body>
+</html>

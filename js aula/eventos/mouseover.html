@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="quadrado" style="width: 100px; height: 100px; background-color: blue;"></div>
+        <p id="mensagemMouse"></p>
+        
+        <script>
+            document.getElementById("quadrado").addEventListener("mouseover", function() {
+                document.getElementById("mensagemMouse").innerHTML = "Você está sobre o quadrado!";
+                document.getElementById("quadrado").style.backgroundColor = "lightblue";
+            });
+
+            document.getElementById("quadrado").addEventListener("mouseout", function() {
+                document.getElementById("mensagemMouse").innerText = "Carteira de trabalho hahahahahaahaahha";
+                document.getElementById("quadrado").style.height = "688px";
+                document.getElementById("quadrado").style.width = "520px";
+                document.getElementById("quadrado").style.backgroundImage = "url('tenor.gif')";
+                document.getElementById("quadrado").style.backgroundSize = "cover";
+            });
+        </script>
+         
+    </body> 
+</html>

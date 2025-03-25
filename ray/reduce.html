@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <script>
+        let numeros = [1, 2, 3, 4, 5];
+        let soma = numeros.reduce(function(acumulador, valorAtual) {
+            return acumulador + valorAtual;
+        }, 0);
+        document.write(soma);
+        </script>
+    </body>
+</html>

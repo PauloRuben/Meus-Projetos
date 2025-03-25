@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CALCULADORA</title>
+  </head>
+  <body>
+    <div class="calculadora">
+      <h1>CALCULADORA</h1>
+      <div class="inputs">
+        <p>Primeiro número</p>
+        <input type="number" name="num1" id="num1" />
+        <p>Segundo número</p>
+        <input type="number" name="num2" id="num2" />
+      </div>
+      <div class="opcao">
+        <button onclick="soma()">Soma</button>
+        <button onclick="subtracao()">Subtração</button>
+        <button onclick="multiplicacao()">Multiplicação</button>
+        <button onclick="divisao()">Divisão</button>
+      </div>
+      <div class="result">
+        <p id="result"></p>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
